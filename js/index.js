@@ -35,12 +35,12 @@ btn3.addEventListener('mouseenter', (event) => {
 
 //mouse up event 5
 
-const allPs = document.querySelectorAll('p');
+const p1 = document.querySelector('section.content-section.inverse-content > div.text-content > p:nth-child(2)');
 
-allPs.addEventListener('scroll', (event) => {
+p1.addEventListener('mouseup', (event) => {
     var x = Math.floor(Math.random() * 256);
     var y = Math.floor(Math.random() * 256);
     var z = Math.floor(Math.random() * 256);
     var randomColor = 'rgb(' + x + ',' + y + ',' + z + ')';
-    allPs.style.color = randomColor;
+    p1.style.color = randomColor;
 })
