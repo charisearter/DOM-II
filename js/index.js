@@ -54,7 +54,7 @@ headerImg.addEventListener('mousemove', (event) => {
     headerImg.style.filter = 'grayscale(100%)';
 })
 
-//mouse down even DONE 7
+//mouse down event DONE 7
 
 const footer = document.querySelector('footer > p');
 
@@ -63,7 +63,13 @@ footer.addEventListener('mousedown', (event) => {
 } )
 
 
-//event 8
+//mouse out event  DONE 8
+
+const lastImg = document.querySelector('section.content-destination > img');
+
+lastImg.addEventListener('mouseout', (event) => {
+    lastImg.style.filter = 'blur(5px)';
+})
 
 
 
