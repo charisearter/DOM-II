@@ -33,7 +33,7 @@ btn3.addEventListener('mouseenter', (event) => {
     btn3.style.fontSize = '5rem';
 })
 
-//mouse up event 5
+//mouse up event DONE 5
 
 const p1 = document.querySelector('section.content-section.inverse-content > div.text-content > p:nth-child(2)');
 
@@ -44,3 +44,27 @@ p1.addEventListener('mouseup', (event) => {
     var randomColor = 'rgb(' + x + ',' + y + ',' + z + ')';
     p1.style.color = randomColor;
 })
+
+//mouse move DONE 6
+
+const headerImg = document.querySelector('header > img');
+
+headerImg.addEventListener('mousemove', (event) => {
+    //do something
+    headerImg.style.filter = 'grayscale(100%)';
+})
+
+//mouse down  7
+
+const footer = document.querySelector('footer > p');
+
+
+//event 8
+
+
+
+//event 9
+
+
+
+//event 10
