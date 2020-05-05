@@ -54,9 +54,13 @@ headerImg.addEventListener('mousemove', (event) => {
     headerImg.style.filter = 'grayscale(100%)';
 })
 
-//mouse down  7
+//mouse down even DONE 7
 
 const footer = document.querySelector('footer > p');
+
+footer.addEventListener('mousedown', (event) => {
+    footer.style.letterSpacing = '4rem';
+} )
 
 
 //event 8
