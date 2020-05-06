@@ -73,7 +73,7 @@ lastImg.addEventListener('mouseout', (event) => {
 
 
 
-//key down ESCAPE  event 9 ??
+//key down ESCAPE  event DONE 9 ??
 
 const img2 = document.querySelector('section:nth-child(2) > div.img-content > img');
 
@@ -85,4 +85,12 @@ img2.addEventListener('keydown', (event) => {
 
 
 
-//event 10
+// keyUP event ESCAPE DONE 10 ??
+
+const img3 = document.querySelector('section.content-section.inverse-content > div.img-content > img');
+
+img3.addEventListener('keyup', (event) => {
+    if (event.key === 'Escape') {
+        img3.style.filter = 'brightness(200%)';
+      }
+})
