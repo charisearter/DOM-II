@@ -73,7 +73,15 @@ lastImg.addEventListener('mouseout', (event) => {
 
 
 
-//event 9
+//key down ESCAPE  event 9 ??
+
+const img2 = document.querySelector('section:nth-child(2) > div.img-content > img');
+
+img2.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        img2.style.filter = 'sepia(100%)';
+      }
+})
 
 
 
